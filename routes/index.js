@@ -61,18 +61,3 @@ module.exports = router;
 
 
 
-
-/* curl 'https://api.authy.com/protected/json/phones/verification/start' \
--d api_key=z3el9plVLy477PDEfYXhI1FYVdGWJLCL \
--d via=sms \
--d phone_number= \
--d country_code=91 */
-
-
-
-
-/* curl -GET 'https://api.authy.com/protected/json/phones/verification/check' \
--d api_key=z3el9plVLy477PDEfYXhI1FYVdGWJLCL \
--d verification_code= \
--d phone_number=9987098069 \
--d country_code=91 */
